@@ -97,12 +97,12 @@ localization across validation samples.
 
 ## 🛠️ Tech Stack
 
--   TensorFlow / Keras\
--   NumPy\
--   OpenCV\
--   Matplotlib\
--   Scikit-learn\
--   Gradio\
+-   TensorFlow / Keras
+-   NumPy
+-   OpenCV
+-   Matplotlib
+-   Scikit-learn
+-   Gradio
 -   Hugging Face Hub
 
 ------------------------------------------------------------------------
