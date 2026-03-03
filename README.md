@@ -1,14 +1,14 @@
 # 🧠 Brain Tumor Segmentation using U-Net (TensorFlow/Keras)
 
-A deep learning project for automatic brain tumor segmentation using a custom U-Net architecture trained on brain MRI scans.
+An end-to-end deep learning pipeline for automatic brain tumor segmentation using a custom U-Net architecture trained on brain MRI images.
 
-This project demonstrates an end-to-end medical image segmentation pipeline — from model training to deployment via Hugging Face Spaces.
+This project demonstrates the full medical image segmentation workflow — including model design, training, evaluation, and deployment via Hugging Face Spaces.
 
 ---
 
 ## 🚀 Live Demo
 
-Try the interactive web app:
+Try the interactive web application:
 
 👉 https://huggingface.co/spaces/himanshudixit1205/brain-tumor-ai
 
@@ -16,26 +16,26 @@ Upload an MRI scan (.tiff / .png / .jpg) to visualize tumor segmentation results
 
 ---
 
-## ✨ Highlights
+## ✨ Key Features
 
-- Custom U-Net implementation (TensorFlow/Keras)
-- Hybrid BCE + Dice loss
-- Dice Score ~0.77–0.78
-- Strong tumor localization
-- Clean modular code structure
-- Deployed using Hugging Face Spaces
+- Custom U-Net architecture implemented in TensorFlow/Keras  
+- Hybrid Binary Cross-Entropy + Dice loss  
+- Data augmentation for improved generalization  
+- Modular and reproducible training pipeline  
+- Deployment using Gradio on Hugging Face Spaces  
 
 ---
 
-## 📊 Final Metrics
+## 📊 Validation Metrics
 
 | Metric | Score |
 |--------|-------|
 | Dice Score | ~0.77 |
 | IoU | ~0.68 |
-| Validation Accuracy | ~99.6% |
 
-The model shows stable convergence and reliable tumor region segmentation across validation samples.
+The model demonstrates stable convergence and consistent tumor region localization across validation samples.
+
+> Note: Pixel-wise accuracy is high due to background class dominance and is not considered a primary segmentation metric.
 
 ---
 
@@ -44,7 +44,7 @@ The model shows stable convergence and reliable tumor region segmentation across
 ### Loss Curve
 ![Loss](results/loss_graph.png)
 
-### Accuracy Curve
+### Dice / IoU Curve
 ![Accuracy](results/accuracy_graph.png)
 
 ---
@@ -59,10 +59,10 @@ The model shows stable convergence and reliable tumor region segmentation across
 
 ## 🧠 Observations
 
-- Correct predictions on empty-mask images (low false positives)
-- Strong tumor detection in high-contrast regions
-- Minor boundary shifts in complex tumor cases
-- Good generalization without heavy regularization
+- Correct predictions on empty-mask samples (low false positives)  
+- Effective detection of high-contrast tumor regions  
+- Minor boundary deviations in complex tumor cases  
+- Good generalization with moderate regularization  
 
 ---
 
@@ -77,24 +77,24 @@ The model shows stable convergence and reliable tumor region segmentation across
 
 ---
 
-## 🤗 Model Weights
+## 🤗 Model Hosting
 
-Model weights are hosted privately on Hugging Face.
+Model weights are hosted on Hugging Face and used within the live demo application:
 
-Live demo available here:  
 👉 https://huggingface.co/spaces/himanshudixit1205/brain-tumor-ai
+
+This repository includes the complete training pipeline and inference application.
 
 ---
 
-## 🔒 Ethics & Safety
+## 🔒 Ethics & Disclaimer
 
-⚠️ For research & educational use only — not a medical diagnosis.
+This project is intended strictly for research and educational purposes.
 
-Due to medical AI considerations, model weights are not publicly released.  
-This repository provides full training code and a live inference demo.
+It is not clinically validated and must not be used for medical diagnosis or treatment decisions.
 
 ---
 
 ## 👤 Author
 
-**Himanshu Dixit**  
+**Himanshu Dixit**
