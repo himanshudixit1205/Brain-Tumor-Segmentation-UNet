@@ -34,7 +34,7 @@ results.
 ## 📦 Dataset
 
 The model was trained on the **Kaggle Brain MRI Segmentation dataset**
-containing **~3900 MRI images with corresponding tumor masks**.
+containing **~3900 MRI image–mask pairs with corresponding tumor masks**.
 
 Preprocessing steps:
 - Image resizing to 128×128 resolution
