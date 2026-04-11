@@ -7,8 +7,6 @@
 ![Research](https://img.shields.io/badge/Research-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?logo=huggingface)](https://huggingface.co/spaces/himanshudixit1205/brain-tumor-ai)
-
 An end-to-end deep learning pipeline for automated brain tumor segmentation from MRI scans using a custom U-Net architecture.
 
 This project covers the full medical imaging workflow — including data preprocessing, model training, evaluation using segmentation-specific metrics (Dice & IoU), 
