@@ -1,12 +1,18 @@
-# 🧠 Brain Tumor Segmentation using U-Net (TensorFlow/Keras)
+## 🧠 Brain Tumor Segmentation using U-Net (TensorFlow/Keras)
 
-An end-to-end deep learning pipeline for automatic brain tumor
-segmentation using a custom U-Net architecture trained on brain MRI
-images.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Model](https://img.shields.io/badge/Model-U--Net-blueviolet)
+![Domain](https://img.shields.io/badge/Domain-Medical%20Imaging-red)
+![Research](https://img.shields.io/badge/Research-Active-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-This project demonstrates the complete medical image segmentation
-workflow --- from model design and training to evaluation and deployment
-via Hugging Face Spaces.
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?logo=huggingface)](https://huggingface.co/spaces/himanshudixit1205/brain-tumor-ai)
+
+An end-to-end deep learning pipeline for automated brain tumor segmentation from MRI scans using a custom U-Net architecture.
+
+This project covers the full medical imaging workflow — including data preprocessing, model training, evaluation using segmentation-specific metrics (Dice & IoU), 
+and deployment via an interactive web application.
 
 ------------------------------------------------------------------------
 
